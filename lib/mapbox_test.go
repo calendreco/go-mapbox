@@ -7,12 +7,12 @@ import (
 
 // Import the core module and any required APIs
 import (
-	"github.com/ryankurte/go-mapbox/lib/base"
-	"github.com/ryankurte/go-mapbox/lib/directions"
-	"github.com/ryankurte/go-mapbox/lib/directions_matrix"
-	"github.com/ryankurte/go-mapbox/lib/geocode"
-	"github.com/ryankurte/go-mapbox/lib/map_matching"
-	"github.com/ryankurte/go-mapbox/lib/maps"
+	"github.com/calendreco/go-mapbox/lib/base"
+	"github.com/calendreco/go-mapbox/lib/directions"
+	"github.com/calendreco/go-mapbox/lib/directions_matrix"
+	"github.com/calendreco/go-mapbox/lib/geocode"
+	"github.com/calendreco/go-mapbox/lib/map_matching"
+	"github.com/calendreco/go-mapbox/lib/maps"
 )
 
 func TestMaps(t *testing.T) {
